@@ -1,0 +1,95 @@
+2026-05-28 14:51:35.643 [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+2026-05-28 14:51:35.838 [INFO] [ra.demo.BookControllerTest] - Starting BookControllerTest using Java 21.0.10 with PID 7316 (started by 84363 in C:\Users\84363\Music\test\KiemTraHackathon_SpringAPI)
+2026-05-28 14:51:35.840 [INFO] [ra.demo.BookControllerTest] - The following 1 profile is active: "test"
+2026-05-28 14:51:42.294 [INFO] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2026-05-28 14:51:42.295 [INFO] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2026-05-28 14:51:42.305 [INFO] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 8 ms
+2026-05-28 14:51:42.449 [INFO] [ra.demo.BookControllerTest] - Started BookControllerTest in 8.448 seconds (process running for 13.728)
+2026-05-28 14:51:44.363 [INFO] [r.demo.service.impl.BookServiceImpl] - Lấy thanh cong 2 books.
+2026-05-28 14:51:44.436 [ERROR] [r.demo.service.impl.BookServiceImpl] - Không tồn tại sách có mã 99
+2026-05-28 14:51:44.455 [INFO] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [ra.demo.KiemTraHackathonSpringApiApplicationTests]: KiemTraHackathonSpringApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-28 14:51:44.459 [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration ra.demo.KiemTraHackathonSpringApiApplication for test class ra.demo.KiemTraHackathonSpringApiApplicationTests
+2026-05-28 14:51:44.469 [INFO] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [ra.demo.KiemTraHackathonSpringApiApplicationTests]: KiemTraHackathonSpringApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-28 14:51:44.473 [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration ra.demo.KiemTraHackathonSpringApiApplication for test class ra.demo.KiemTraHackathonSpringApiApplicationTests
+2026-05-28 14:51:44.611 [INFO] [r.d.KiemTraHackathonSpringApiApplicationTests] - Starting KiemTraHackathonSpringApiApplicationTests using Java 21.0.10 with PID 7316 (started by 84363 in C:\Users\84363\Music\test\KiemTraHackathon_SpringAPI)
+2026-05-28 14:51:44.612 [INFO] [r.d.KiemTraHackathonSpringApiApplicationTests] - The following 1 profile is active: "test"
+2026-05-28 14:51:45.609 [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-28 14:51:45.756 [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+2026-05-28 14:51:46.896 [INFO] [org.hibernate.orm.jpa] - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-28 14:51:47.250 [INFO] [org.hibernate.orm.core] - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-28 14:51:48.925 [INFO] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-28 14:51:49.134 [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2026-05-28 14:51:50.510 [INFO] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:dbtest user=SA
+2026-05-28 14:51:50.526 [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2026-05-28 14:51:50.696 [WARN] [org.hibernate.orm.deprecation] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-28 14:51:50.829 [INFO] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:dbtest]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DBTEST/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-28 14:51:54.055 [INFO] [org.hibernate.orm.core] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-28 14:51:54.226 [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-28 14:51:54.555 [INFO] [o.s.d.j.r.q.QueryEnhancerFactories] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-28 14:51:55.380 [WARN] [o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-28 14:51:56.047 [INFO] [r.d.KiemTraHackathonSpringApiApplicationTests] - Started KiemTraHackathonSpringApiApplicationTests in 11.553 seconds (process running for 27.326)
+2026-05-28 14:51:56.087 [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-28 14:51:56.649 [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2026-05-28 14:51:56.653 [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2026-05-28 15:00:04.094 [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+2026-05-28 15:00:04.340 [INFO] [ra.demo.BookControllerTest] - Starting BookControllerTest using Java 21.0.10 with PID 1600 (started by 84363 in C:\Users\84363\Music\test\KiemTraHackathon_SpringAPI)
+2026-05-28 15:00:04.343 [INFO] [ra.demo.BookControllerTest] - The following 1 profile is active: "test"
+2026-05-28 15:00:12.860 [INFO] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2026-05-28 15:00:12.862 [INFO] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2026-05-28 15:00:12.872 [INFO] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 6 ms
+2026-05-28 15:00:12.985 [INFO] [ra.demo.BookControllerTest] - Started BookControllerTest in 11.139 seconds (process running for 16.722)
+2026-05-28 15:00:14.906 [INFO] [r.demo.service.impl.BookServiceImpl] - Lấy thanh cong 2 books.
+2026-05-28 15:00:14.980 [ERROR] [r.demo.service.impl.BookServiceImpl] - Không tồn tại sách có mã 99
+2026-05-28 15:00:15.001 [INFO] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [ra.demo.KiemTraHackathonSpringApiApplicationTests]: KiemTraHackathonSpringApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-28 15:00:15.009 [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration ra.demo.KiemTraHackathonSpringApiApplication for test class ra.demo.KiemTraHackathonSpringApiApplicationTests
+2026-05-28 15:00:15.018 [INFO] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [ra.demo.KiemTraHackathonSpringApiApplicationTests]: KiemTraHackathonSpringApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-28 15:00:15.022 [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration ra.demo.KiemTraHackathonSpringApiApplication for test class ra.demo.KiemTraHackathonSpringApiApplicationTests
+2026-05-28 15:00:15.143 [INFO] [r.d.KiemTraHackathonSpringApiApplicationTests] - Starting KiemTraHackathonSpringApiApplicationTests using Java 21.0.10 with PID 1600 (started by 84363 in C:\Users\84363\Music\test\KiemTraHackathon_SpringAPI)
+2026-05-28 15:00:15.144 [INFO] [r.d.KiemTraHackathonSpringApiApplicationTests] - The following 1 profile is active: "test"
+2026-05-28 15:00:16.194 [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-28 15:00:16.355 [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 122 ms. Found 1 JPA repository interface.
+2026-05-28 15:00:17.478 [INFO] [org.hibernate.orm.jpa] - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-28 15:00:17.849 [INFO] [org.hibernate.orm.core] - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-28 15:00:19.667 [INFO] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-28 15:00:19.859 [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2026-05-28 15:00:21.032 [INFO] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:dbtest user=SA
+2026-05-28 15:00:21.040 [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2026-05-28 15:00:21.178 [WARN] [org.hibernate.orm.deprecation] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-28 15:00:21.307 [INFO] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:dbtest]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DBTEST/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-28 15:00:25.125 [INFO] [org.hibernate.orm.core] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-28 15:00:25.291 [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-28 15:00:25.619 [INFO] [o.s.d.j.r.q.QueryEnhancerFactories] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-28 15:00:26.371 [WARN] [o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-28 15:00:26.903 [INFO] [r.d.KiemTraHackathonSpringApiApplicationTests] - Started KiemTraHackathonSpringApiApplicationTests in 11.869 seconds (process running for 30.64)
+2026-05-28 15:00:26.939 [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-28 15:00:27.468 [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2026-05-28 15:00:27.473 [INFO] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2026-05-28 15:03:20.334 [INFO] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 9.0.1.Final
+2026-05-28 15:03:20.543 [INFO] [ra.demo.BookControllerTest] - Starting BookControllerTest using Java 21.0.10 with PID 11968 (started by 84363 in C:\Users\84363\Music\test\KiemTraHackathon_SpringAPI)
+2026-05-28 15:03:20.546 [INFO] [ra.demo.BookControllerTest] - The following 1 profile is active: "test"
+2026-05-28 15:03:27.185 [INFO] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2026-05-28 15:03:27.194 [INFO] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2026-05-28 15:03:27.209 [INFO] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 9 ms
+2026-05-28 15:03:27.332 [INFO] [ra.demo.BookControllerTest] - Started BookControllerTest in 8.66 seconds (process running for 14.129)
